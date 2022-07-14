@@ -74,7 +74,8 @@ function Post({post}:Props) {
                         <li className="ml-4 list-disc" >{children}</li>
                         ),
                     link:({href, children}: any) => (
-                        <a href={href} className="text-blue-500 hover:underline"> {children}>
+                        <a href={href} className="text-blue-500 hover:underline">
+                            {children}
                         </a>
                         ),
                 }}
